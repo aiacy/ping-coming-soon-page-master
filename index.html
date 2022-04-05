@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/094a0588c2.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-family: 'Libre Franklin', sans-serif;
+    }
+
+    main{
+      display: grid;
+      margin: 4rem;
+      place-items: center;
+      text-align: center;
+    }
+
+    section{
+      width: 100%;
+    }
+
+    .dashboard{
+      width: 50%;
+      margin-top: 2rem;
+    }
+
+    section h1{
+      font-weight: 300;
+      font-size: 2rem;
+      padding-top: 2rem;
+    }
+
+    span.bold{
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    section h1+p{
+      padding: 1rem;
+    }
+
+    button{
+      background-color:  hsl(223, 87%, 63%);
+      border: none;
+      padding: .7rem;
+      color: white;
+      border-radius: 2rem;
+      font-size: calc(1.3rem / 2);
+      height: 100%;
+    }
+
+    input{
+      border-radius: 2rem;
+      border: 1px solid hsl(0, 0%, 59%);
+      padding: .7rem;
+      width: 35%;
+      font-size: calc(1.3rem / 2);
+    }
+
+    .socials img{
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .attribution { margin-top: 1rem; font-size: calc(1.3rem / 2); text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <img src="./images/logo.svg" alt="">
+      <h1>We are launching <span class="bold">soon!</span> 
+       </h1>
+      <p>Subscribe and get notified</p>
+      <div class="form">
+        <input type="email" name="email" id="email" placeholder="Your email address...">
+        <button>Notify Me</button>
+      </div>
+
+    </section>
+    <section>
+      <img class="dashboard" src="./images/illustration-dashboard.png" alt="">
+    </section>
+    <section class="socials">
+      <img src="./SVG/facebook.svg" alt="">
+      <img src="./SVG/twitter.svg" alt="">
+      <img src="./SVG/instagram.svg" alt="">
+    </section>
+    <p style="font-size: .6rem;">
+    &copy; Copyright Ping. All rights reserved.</p>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Aliyah Regina</a>.
+      </p>
+    </footer>
+  </main> 
+
+
+
+
+
+</body>
+</html>
